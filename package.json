@@ -1,0 +1,19 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.1",
+  "description": "Es un simple tabla de multiplicar texto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "author": "Jhonatan Soto",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
